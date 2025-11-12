@@ -155,7 +155,7 @@ h1 {
     justify-content: center;
     color: #1f2937;
     gap: 0;
-    padding: 16px;
+    padding: 36px 16px;
     margin: 0;
 }
 
@@ -163,11 +163,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
-    gap: 16px;
-    padding: 16px;
-    margin: 0;
 }
 
 .quote-header h2 {
@@ -175,10 +172,6 @@ h1 {
     color: #1f2937;
 }
 
-.quote p {
-    margin: 0;
-    color: #1f2937;
-}
 
 .quote {
     font-style: italic;
@@ -187,9 +180,28 @@ h1 {
     text-align: center
 }
 
+.quote-1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 36px 16px;
+}
+
+.quote-1 {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;   
+}
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;

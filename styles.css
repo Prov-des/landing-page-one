@@ -100,7 +100,9 @@ h1 {
     border-radius: 8px;
     padding: 8px 16px;
     width: 150px;
+    cursor: pointer;
 }
+
 
 .header-image img {
     width: 100%;
@@ -108,7 +110,7 @@ h1 {
     max-height: auto;
     border-radius: 16px;
 }
-
+   
 
 
 .works-section {
